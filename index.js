@@ -8,7 +8,7 @@ const port = process.env.PORT || 8080 // chose port from here like 8080, 3001
 // Use the CORS middleware to allow requests from your Vercel app
 server.use(
   cors({
-    origin: 'https://test-rtk.vercel.app' // Replace with your frontend's URL
+    origin: 'https://boburjon-blog.vercel.app/' // Replace with your frontend's URL
   })
 )
 
